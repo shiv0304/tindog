@@ -1,0 +1,176 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container{
+  padding: 3% 15%;
+}
+
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+#navbar-brand{
+
+  font-size: 3rem ; 
+  font-family: monospace;
+  font-weight: bold;
+  color: #fff; 
+  text-decoration: none;
+}
+
+.navbar.navbar-expand-lg.navbar-dark{
+  padding: 0 0 4.5rem ;
+
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.headline{
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+
+.btn.btn-outline-light{
+  font-size: 20px ;
+  margin-left:10px ;
+  margin-top: 10px;
+}
+
+.btn.btn-dark{
+  font-size: 20px;
+  margin-right:10px ;
+  margin-top: 10px;
+  
+}
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 20px 20px;
+  position: relative;
+  
+}
+
+.col-lg-6.col-md-12{
+  padding: 30px;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 100px;
+}
+
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.myicons{
+  font-size: 60px;
+  color: #f54291;
+  margin-bottom: 1rem;
+}
+
+.myicons:hover{
+  color: red;
+}
+
+.test-text{
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.dogimg{
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin-left:130px ;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.comp-logo{
+  padding: 40px;  
+  width: 15%;
+}
+
+#pricing{
+  padding: 4% 4%;
+  text-align: center;
+}
+
+.plans{
+  padding: 2% 5%;
+}
+
+/* breakpoint */
+
+@media (max-width:1028px){
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  height: 300px;
+  padding: 50px;
+}
+
+.ctaheading{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  width: 30%;
+  margin: 10px auto;
+}
+
+a{
+  text-decoration: none;  
+}
+
+#footer{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.mlinks{
+  padding: 40px 20px;
+  font-size: 2rem;
+}
+
+.copyright{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.plansheading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
